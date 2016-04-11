@@ -1,0 +1,53 @@
+
+body {
+	background-color: #93E4E7;
+	font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+	height: 50vh;
+	width: 100%;
+	text-align: center;
+	color: #ffffff;
+	padding-top:30vh;
+}
+
+h1 {
+	font-size: 45px;
+}
+
+#start-container {
+	background: url(images/donut_background_w.jpg);
+}
+
+.game-container {
+	height: 600px;
+	width: 800px;
+	margin: auto;
+	background-color: ##93E4E7;
+}
+
+.donut {
+	position: relative;
+	max-width: 80px;
+	max-height: 80px;
+}
+
+
+button {
+	background-color: #F3E902;
+	color: #ffffff;
+	padding: 4px 32px;
+	text-align: center;
+	display: inline-block;
+	margin: 0 auto;
+	font-size: 20px;
+	border-radius: 25px;
+	border: none;
+	font-family: 'Montserrat', sans-serif;
+}
+
+button:hover {
+	background-color: #F7BCCE;
+}
+
