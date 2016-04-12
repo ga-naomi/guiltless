@@ -90,7 +90,8 @@ var endTimer;
 		else if (userConsumed => 46) {
 		     	results = "Yay - Somebody ate all of the donuts. It was you!";
 		    }  
-		//show results     
+		//show results  
+		$(".user-ate").text(userConsumed);   
 		$(".results").text(results); 
 		}
 

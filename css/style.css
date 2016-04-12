@@ -73,6 +73,11 @@ button:hover {
 	padding: 35px;
 }
 
+.user-ate {
+	font-size: 72px;
+	color: #68C6BB;
+}
+
 .results {
 	font-size: 72px;
 	color: #F7BCCE;
