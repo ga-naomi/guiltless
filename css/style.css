@@ -2,12 +2,12 @@
 body {
 	background-color: #93E4E7;
 	font-family: 'Montserrat', sans-serif;
+	text-align: center;
 }
 
 nav {
 	height: 50vh;
 	width: 100%;
-	text-align: center;
 	color: #ffffff;
 	padding-top:30vh;
 }
@@ -16,31 +16,47 @@ h1 {
 	font-size: 45px;
 }
 
-#start-container {
-	background: url(images/donut_background_w.jpg);
+#background-image {
+	padding: 20px;
+	background-image: url("../images/donut_background_w.jpg");
+}
+
+.start-container {
+	display: flex;
+	width: 100%;
+	flex-grow: 1;
+}
+
+.columns {
+	flex: 1;
+	padding: 20px;
 }
 
 .game-container {
+	margin: 45px;
 	height: 600px;
 	width: 800px;
 	margin: auto;
-	background-color: ##93E4E7;
+	margin-top: 45px;
+	background-color: #93E4E7;
+	position: relative;
 }
 
 .donut {
-	position: relative;
+	position: absolute;
 	max-width: 80px;
 	max-height: 80px;
 }
 
+span {
+	color: #F7BCCE;
+	font-size: 30px;
+}
 
 button {
 	background-color: #F3E902;
 	color: #ffffff;
 	padding: 4px 32px;
-	text-align: center;
-	display: inline-block;
-	margin: 0 auto;
 	font-size: 20px;
 	border-radius: 25px;
 	border: none;
@@ -49,5 +65,20 @@ button {
 
 button:hover {
 	background-color: #F7BCCE;
+}
+
+.results-container {
+	background-image: url("../images/donut_background_w.jpg");
+	display: none;
+	padding: 35px;
+}
+
+.results {
+	font-size: 72px;
+	color: #F7BCCE;
+}
+
+.results-container button {
+	margin: auto;
 }
 

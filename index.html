@@ -2,8 +2,8 @@
 <html lang="en">
 	<head>
     	<meta charset="utf-8">
-    	<meta name="Guiltless" content="Eat as many donuts as you wish">
-    	<meta name="Guiltless" content="Donuts, Donut Game, ">
+    	<meta name="Guiltless" content="Donut eating challenge">
+    	<meta name="Guiltless" content="Donuts, Donut Game, Eating">
 
 		<title>Guiltless</title>
 
@@ -18,30 +18,37 @@
 	<body>
 		<nav>
 			<h1>Guiltless</h1>
-			<h2>How many donuts can you consume in 30 seconds?</h2>
+			<h2>Donut Eating Challenge!</h2>
 		</nav>
-		
-		<br>
 
-		<div class="start-container">
-			<button class="start-button">Start Game</button>
-			<h2>Consumed: <span id="donut-tally">0</span></h2>
 
-			<h2>Countdown: <span id="timer">30</span></h2>
 
+		<div id="background-image">
+			<div class="start-container">
+				<div class="column-left columns">
+					<p>Consumed: </br><span id="donut-tally">0</span></p>
+				</div>
+
+				<div class="column-middle columns">
+					<button class="start-button">Start Game</button>
+				</div>
+					
+				<div class="column-right columns">
+					<p>Time Left: </br><span id="timer">30</span></p>
+				</div>
+			</div>
 		</div>
+
+
 
 		<div class="game-container">
-			
-
 		</div>
 
+
 		<div class="results-container">
-			<h2>Consumed: <span id="donut-tally">0</span></h2>
+			<h2 class="results"></h2>
 
-			<h2>Countdown: <span id="timer">30</span></h2>
-
-			<button class="play-again">Play again!</button>
+			<button class="play-again">Play Again!</button>
 
 		</div>
 
